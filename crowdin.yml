@@ -1,0 +1,16 @@
+# Public UI strings only. Never point this integration at the application repository.
+preserve_hierarchy: true
+commit_message: 'chore(i18n): approved Crowdin translations [skip ci]'
+append_commit_message: false
+files:
+  - source: /locales/zh-CN.json
+    translation: /locales/%locale%.json
+    type: json
+    export_only_approved: true
+    skip_untranslated_strings: true
+    languages_mapping:
+      locale:
+        ja: ja-JP
+        en: en-US
+        en-US: en-US
+        zh-TW: zh-TW
