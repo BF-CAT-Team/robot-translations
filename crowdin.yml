@@ -6,6 +6,7 @@ files:
   - source: /locales/zh-CN.json
     translation: /locales/%locale%.json
     type: json
+    update_option: update_as_unapproved
     export_only_approved: true
     skip_untranslated_strings: true
     languages_mapping:

@@ -6,7 +6,9 @@ This repository contains interface strings only. The website and backend source 
 
 ## Participation
 
-Anyone may join the public Crowdin project and suggest translations. Only project administrators or specifically appointed proofreaders may approve translations. Imported existing translations are suggestions, not automatically approved.
+Anyone may join the public Crowdin project and suggest translations. Only project administrators or specifically appointed proofreaders may approve translations. Imported existing translations are suggestions, not automatically approved. Source wording changes keep existing suggestions but reset their approval with `update_option: update_as_unapproved`.
+
+Read [the translation style guide](TRANSLATION_STYLE.md) before submitting changes.
 
 Preserve placeholders such as `{count}` and `{value0}`, product names, paths and identifiers. Use short, clear UI labels. Report unclear source text rather than inventing functionality.
 
